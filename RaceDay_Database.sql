@@ -1,3 +1,18 @@
+USE master;
+GO
+
+IF DB_ID('RaceDay') IS NOT NULL
+BEGIN
+    ALTER DATABASE RaceDay SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+    DROP DATABASE RaceDay;
+END;
+GO
+
+CREATE DATABASE RaceDay;
+GO
+
+USE RaceDay;
+GO
 -- RaceDay Database Script
 
 -- This script creates the database tables, relationships,
