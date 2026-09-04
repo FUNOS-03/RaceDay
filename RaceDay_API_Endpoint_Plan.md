@@ -145,3 +145,14 @@
 All API endpoints will use RESTful conventions and JSON request and response formats.
 
 Authentication and role-based authorisation will be implemented in Part 2 using the Organiser and Participant roles defined in the system planning.
+## API Response Conventions
+
+The RaceDay API will use standard HTTP status codes:
+
+- 200 OK – Successful request
+- 201 Created – Resource successfully created
+- 204 No Content – Resource successfully deleted
+- 400 Bad Request – Invalid request data
+- 401 Unauthorized – Authentication required
+- 403 Forbidden – User does not have permission
+- 404 Not Found – Requested resource does not exist
