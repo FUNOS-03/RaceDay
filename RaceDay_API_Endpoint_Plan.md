@@ -156,3 +156,8 @@ The RaceDay API will use standard HTTP status codes:
 - 401 Unauthorized – Authentication required
 - 403 Forbidden – User does not have permission
 - 404 Not Found – Requested resource does not exist
+## Error Handling
+
+The API will return clear error responses when requests cannot be completed.
+
+Validation errors will return HTTP 400 Bad Request. Authentication failures will return HTTP 401 Unauthorized, while users without the required role or permission will receive HTTP 403 Forbidden. Requests for resources that do not exist will return HTTP 404 Not Found.
