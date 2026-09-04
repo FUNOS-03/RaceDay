@@ -202,3 +202,14 @@ VALUES
 -- Routes
 -- Weather information
 -- Event Images
+-- Database Validation Queries
+-- These queries can be used to verify the sample data.
+
+SELECT * FROM [User];
+SELECT * FROM Event;
+SELECT * FROM Category;
+SELECT * FROM Enrolment;
+SELECT * FROM Result;
+SELECT * FROM Route;
+SELECT * FROM Weather;
+SELECT * FROM EventImage;
