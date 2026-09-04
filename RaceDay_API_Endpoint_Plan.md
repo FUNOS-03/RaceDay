@@ -140,3 +140,8 @@
 - **Role Required:** Organiser
 - **Request Body:** FinishTime, Position, AveragePace, ResultStatus
 - **Expected Response:** 200 OK with updated result details
+## API Design Notes
+
+All API endpoints will use RESTful conventions and JSON request and response formats.
+
+Authentication and role-based authorisation will be implemented in Part 2 using the Organiser and Participant roles defined in the system planning.
