@@ -66,7 +66,19 @@ The system will be developed progressively across three parts.
 - C# RESTful API
 - SQL Server database integration
 - Unit testing
-- GitHub Actions CI/CD
+- GitHub Actions CI/
+## Part 1 Deliverables
+
+The Part 1 planning phase consists of the following deliverables:
+
+- System planning and user role definitions
+- Entity Relationship Diagram (ERD)
+- Data model documentation
+- REST API Endpoint Plan
+- SQL Server database script
+- Sample database data
+- GitHub repository and version control
+- GitHub Actions CI/CD configuration
 
 ### Part 3
 
