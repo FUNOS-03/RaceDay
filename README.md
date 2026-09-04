@@ -44,4 +44,4 @@ GitHub Actions has been configured for the RaceDay project.
 
 ## Video
 
-The project explanation video will be added here once completed.
+https://youtu.be/fb7yICgMEdo
