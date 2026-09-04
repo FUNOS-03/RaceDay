@@ -228,3 +228,9 @@ GO
 
 USE RaceDay;
 GO
+-- Database Constraints
+-- Primary keys uniquely identify each record.
+-- Foreign keys maintain relationships between related tables.
+-- UNIQUE constraint prevents duplicate email addresses.
+-- CHECK constraints restrict valid user roles and enrolment/result statuses.
+-- NOT NULL constraints ensure required information is provided.
