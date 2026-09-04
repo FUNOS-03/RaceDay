@@ -191,3 +191,14 @@ VALUES
     (1, 'https://example.com/images/pretoria-city-run.jpg', 'pretoria-city-run.jpg'),
     (2, 'https://example.com/images/johannesburg-cycle.jpg', 'johannesburg-cycle.jpg'),
     (3, 'https://example.com/images/cape-town-coastal-walk.jpg', 'cape-town-coastal-walk.jpg');
+-- Part 1 Sample Data
+-- The database includes sample data for:
+-- 2 Organisers
+-- 2 Participants
+-- 3 Events
+-- Event Categories
+-- Participant Enrolments
+-- Results
+-- Routes
+-- Weather information
+-- Event Images
