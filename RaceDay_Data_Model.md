@@ -78,3 +78,10 @@
 - ImageUrl
 - BlobName
 - UploadedAt
+- ## Design Notes
+
+The User entity stores both Organiser and Participant accounts using the Role attribute.
+
+OrganiserID in the Event entity identifies the user responsible for managing an event, while ParticipantID in the Enrolment entity identifies the participant entering an event.
+
+This approach avoids unnecessary duplicate user tables while maintaining clear relationships between users, events and enrolments.
